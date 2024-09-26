@@ -1,18 +1,24 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Navegacion from "./components/Navegacion"
+import Config from "./components/Config"
 
 function App() {
 
   return (
-    <div>
+    <div className="flex h-screen">
 
       <BrowserRouter>
 
-        <Routes>
+        <Navegacion />
 
+        <div className="flex-grow">
 
+          <Routes>
 
-        </Routes>
+          </Routes>
+
+        </div>
 
       </BrowserRouter>
 
