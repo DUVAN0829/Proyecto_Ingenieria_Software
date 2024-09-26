@@ -1,10 +1,20 @@
 
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 function App() {
 
   return (
     <div>
 
-      <h1 className="text-center" > Gestión de Inventario </h1>
+      <BrowserRouter>
+
+        <Routes>
+
+
+
+        </Routes>
+
+      </BrowserRouter>
 
     </div>
   )
